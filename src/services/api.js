@@ -2,8 +2,9 @@
 // PALIFY ADMIN - API Service Layer (FULLY CONNECTED)
 // Base URL: http://localhost:5000/api
 // ============================================================
+export const BASE_URL = 'https://palify-backend-production.up.railway.app/api'
 
-export const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
+// export const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
 
 const getToken = () => localStorage.getItem('palify_admin_token')
 
